@@ -1,0 +1,126 @@
+<!-- You can go to unsplash.com to upload pictures -->
+<!-- You can go to fontawesome.com, search for image icons and copy and paste that code -->
+
+<!DOCTYPE html>
+<head>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+
+	<link rel="stylesheet" type="text/css" href="gallery.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">   <!-- inverse means color can be inverted 
+		navbar-fixed-top means navbar will show up even when it is scrolled down-->
+		<!-- container class centers around the paragraph and adds up spacing to our main content-->
+		<div class="container">
+			<!-- You can go to getbootstrap.com and go to "Components" and click on Navbar on the right side of the page and copy and paste the code -->
+		<div class="navbar-header">
+			<!-- The following button code is for the hamburger tab -->
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      	</button>
+
+			<!-- The # octothorp sign doesn't take us anywhere and the navbar-brand connects us to the company name -->
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-nav-demo">   <!-- whatever we put inside this div will be collapsed when we hit mobile size 
+		id doesn't have octothorp in here, but data-target has octothorp-->
+			<ul class="nav navbar-nav">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Sign Up</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+		
+		</div>
+	</nav>
+
+
+<div class="container">
+	<div class="jumbotron">
+		<!-- You can go to getbootstrap.com and click on Components and then Glyphicons and copy and paste the span url -->
+		<!-- You can go to fontawesome.com, search for image icons and copy and paste that code. For some reason, 'fad' doesn't work so write fa instead -->
+		<h1><i class="fa fa-camera-retro"></i> The Image Gallery</h1>
+		<p>A bunch of beautiful images that I didn't take</p>
+		
+	</div>
+
+	<div class="row">
+		<!-- we can only write col-sm-6 and it will also work for col-md-6 -->
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image1"></div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image2"></div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image3"></div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image4"></div>
+			
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image5"></div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image6"></div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image7"></div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image8"></div>
+			</div>
+		</div>
+
+		<div class="col-lg-4 col-sm-6">
+			<div class="thumbnail">
+				<div class="image image9"></div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<!-- You can go to jQuery CDN on code.jquery.com, select the most recent version, click 'uncompressed' and copy the URL-->
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<!-- Copied this following code from Bootstrap CDN on https://getbootstrap.com/docs/3.3/getting-started/#download -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

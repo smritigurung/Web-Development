@@ -1,0 +1,63 @@
+body {
+	padding-top: 70px; 
+}
+
+.image {
+	width: 100%;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+
+.image1 {
+	background-image: url(https://images.unsplash.com/photo-1570581279605-411fc07bbb3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+}
+
+.image2 {
+	background-image: url(https://images.unsplash.com/photo-1569289522127-c0452f372d46?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=929&q=80);
+}
+
+.image3 {
+	background-image: url(https://images.unsplash.com/photo-1569409611407-50eee9f59dfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1689&q=80);
+}
+
+.image4 {
+	background-image: url(https://images.unsplash.com/photo-1569077218751-3e3de7800c00?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
+}
+
+.image5 {
+	background-image: url(https://images.unsplash.com/photo-1565396257124-2c1627e8b3b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80);
+}
+
+.image6 {
+	background-image: url(https://images.unsplash.com/photo-1566217688581-b2191944c2f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
+}
+
+.image7 {
+	background-image: url(https://images.unsplash.com/photo-1563074408-455d75186f14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+}
+
+.image8 {
+	background-image: url(https://images.unsplash.com/photo-1563778084459-859099e48677?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
+}
+
+.image9 {
+	background-image: url(https://images.unsplash.com/photo-1556804335-2fa563e93aae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80);
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {   /*Right click on that text and inspect element and copy from there*/
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {   /*Right click on that text and inspect element and copy from there*/
+	color: white;
+}
